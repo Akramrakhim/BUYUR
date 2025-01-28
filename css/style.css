@@ -371,6 +371,12 @@ color: rgba(53, 50, 62, 0.5);
   color: var(--text-color);
 }
 
+.active{
+  color: var(--red);
+}
+
+
+
 .card__img-title-wrapper{
   display: flex;
   flex-direction: column;
