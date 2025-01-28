@@ -410,25 +410,26 @@ color: rgba(53, 50, 62, 0.5);
 .site-footer__list {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
 }
 
 .site-footer__item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 3px;
 }
 .site-footer__shopping{
-  background: var(--green);
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 0;
-  left: calc(50% - 10px);
+  top: 10px;
+  left: calc(50% - -13px);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  background-color: var(--green);
 }
 
 .site-footer__link {
@@ -439,7 +440,7 @@ color: rgba(53, 50, 62, 0.5);
 
 .site-footer__icon{
   display: block;
-  width: 23px;
+  width: 27px;
   height: 23px;
   object-fit: cover;
 }
