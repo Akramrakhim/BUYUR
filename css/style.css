@@ -282,7 +282,7 @@ color: rgba(53, 50, 62, 0.5);
 
 .site-header__logo{
   margin-left: auto;
-  margin-right: 95px;
+  margin-right: auto;
   text-align: center;
   display: block;
 }
@@ -331,6 +331,7 @@ color: rgba(53, 50, 62, 0.5);
 /* SITE MAIN */
 .site-main{
   padding-top: 10px;
+  padding-bottom: 80px;
 
 }
 
@@ -422,14 +423,8 @@ color: rgba(53, 50, 62, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 10px;
-  left: calc(50% - -13px);
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  background-color: var(--green);
+
 }
 
 .site-footer__link {
