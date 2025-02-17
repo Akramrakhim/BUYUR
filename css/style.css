@@ -686,11 +686,6 @@ only screen and (                min-resolution: 2dppx) {
     padding-right: 40px;
   }
 
-  .site-header{
-    padding-top: 64px;
-    padding-bottom: 48px;
-  }
-
   .site-header__sitenav, 
   .site-header--open .site-header__sitenav{
     position: static;
