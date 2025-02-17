@@ -111,9 +111,12 @@ html{
 body{
     display: flex;
     flex-direction: column;
-    height: 100%;
-    padding: 0;
+    align-items: center; 
+    text-align: center;
+    width: 100vw;
+    min-height: 100vh;
     margin: 0;
+    padding: 0; 
     font-size: 0.75rem;
     line-height: 187.5%;
     font-weight: 400;
@@ -123,7 +126,6 @@ body{
     /* background-image:url(../img/Ellipse.png);
     background-repeat:no-repeat;
     background-position:top calc(50% - 10px); */
-
 }
 
 a, li{
@@ -621,7 +623,20 @@ only screen and (                min-resolution: 2dppx) {
 
 
 
-@media only screen and (min-width:25em){
+@media only screen and (max-width:406px){
+  .card{
+    margin-bottom: 50px;
+  }
+
+  .card__item{
+    width: 100px;
+    height: 100px;
+  }
+
+  .card__img{
+    width: 95px;
+    height: 95px;
+  }
 }
 @media only screen and (min-width:31.25em){
 }
